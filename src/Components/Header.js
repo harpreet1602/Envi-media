@@ -3,7 +3,7 @@
 
 import React from "react";
 import SearchIcon from '@material-ui/icons/Search';
-import HomeIcon from '@material-ui/icons/Home';
+import HomeWorkTwoToneIcon from '@material-ui/icons/HomeWorkTwoTone';
 import FlagIcon from '@material-ui/icons/Flag';
 import SubscriptionsOutlinedIcon from '@material-ui/icons/SubscriptionsOutlined';
 import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
@@ -12,7 +12,9 @@ import  AddIcon from '@material-ui/icons/Add';
 import  ForumIcon from '@material-ui/icons/Forum';
 import  NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
 import  ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-
+import PeopleOutlineIcon from '@material-ui/icons/PeopleOutline';
+import EventIcon from '@material-ui/icons/Event';
+import TrendingUpIcon from '@material-ui/icons/TrendingUp';
 import './Header.css';
 import logo from './logo.jpeg';
 const Header = () => {
@@ -28,16 +30,19 @@ const Header = () => {
         </div>
         <div className="header__center">
             <div className="header__option header__option--active">
-                <HomeIcon fontsize='large'/>
+                <HomeWorkTwoToneIcon fontsize='large' style={{ fontSize: 45 }}/>
             </div>
-            <div className="header__option">
+            {/* <div className="header__option">
                 <FlagIcon fontsize='large'/>
+            </div> */}
+            <div className="header__option">
+                <PeopleOutlineIcon fontsize='large' style={{ fontSize: 45 }}/>
             </div>
             <div className="header__option">
-                <SubscriptionsOutlinedIcon fontsize='large'/>
+                <EventIcon fontsize='large' style={{ fontSize: 45 }}/>
             </div>
             <div className="header__option">
-                <SupervisedUserCircleIcon fontsize='large'/>
+                <TrendingUpIcon fontsize='large'style={{ fontSize: 45 }}/>
             </div>
 
         </div>

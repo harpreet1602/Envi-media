@@ -21,6 +21,11 @@ let StoryReel = ()=>{
         profileSrc={logo}
         title='Ashmeet Singh'
         />
+          <Story
+        image = {logo}
+        profileSrc={logo}
+        title='Ashmeet Singh'
+        />
     </div>
     );
 }
