@@ -34,9 +34,8 @@ const Sidebar = ()=>{
             title='Leader Board 🏆🥇'/>
            
             <SidebarRow Icon={FaceIcon} 
-            title='Pollution 🌚'/>
-            <SidebarRow Icon={LocationCityIcon } 
-            title='Report of City 🗺'/>
+            title='Pollution Report 🌚'/>
+         
             <SidebarRow Icon={AddAlertIcon } 
             title='Covid 19 Status 🏚'/>
             <SidebarRow Icon={ExpandMoreOutlinedIcon} 
