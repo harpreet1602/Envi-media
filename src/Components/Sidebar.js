@@ -25,19 +25,19 @@ const Sidebar = ()=>{
             https://thumbs-prod.si-cdn.com/P4Smi9MthEBXH7pdW8Y-bvwR6ts=/1072x720/filters:no_upscale()/https://public-media.si-cdn.com/filer/04/8e/048ed839-a581-48af-a0ae-fac6fec00948/gettyimages-168346757_web.jpg
             " title="Harpreet Singh"/>
             <SidebarRow Icon={EmojiPeopleIcon} 
-            title='Envi-Mates 👨‍🦱'/>
+            title='Envi-Mates '/>
              <SidebarRow Icon={ChatIcon} 
-            title='Messenger 📟 '/>
+            title='Messenger'/>
             <SidebarRow Icon={PersonPinIcon} 
-            title='Common Geolocation 🚩'/>
+            title='Common Geolocation'/>
             <SidebarRow Icon={AssignmentIcon} 
-            title='Leader Board 🏆🥇'/>
+            title='Leader Board'/>
            
             <SidebarRow Icon={FaceIcon} 
-            title='Pollution Report 🌚'/>
+            title='Pollution Report'/>
          
             <SidebarRow Icon={AddAlertIcon } 
-            title='Covid 19 Status 🏚'/>
+            title='Covid 19 Status'/>
             <SidebarRow Icon={ExpandMoreOutlinedIcon} 
             title='More'/>
 
