@@ -32,7 +32,7 @@ const MessageSender = ()=>{
                    <input
                    type="text"
                    className='messageSender__input'
-                   placeholder="What's on your mind"
+                   placeholder="Wanna Share Anything??"
                    vaue={input}
                    onChange={
                        (e)=> setInput(e.target.value)
@@ -46,17 +46,17 @@ const MessageSender = ()=>{
                    <div className = "messageSender__bottom">
                        <div className="messageSender__option">
                            <VideocamIcon style={{color:'red'}}/>
-                           <h3>Live Video</h3>
+                           <h3> Video</h3>
                        </div>
 
                        <div className="messageSender__option">
                            <PhotoLibraryIcon style={{color:'green'}}/>
-                           <h3>Photo/Video</h3>
+                           <h3>Photo</h3>
                        </div>
-                       <div className="messageSender__option">
+                       {/* <div className="messageSender__option">
                            <InsertEmoticonIcon style={{color:'red'}}/>
-                           <h3>Feeling/Activity</h3>
-                       </div>
+                           <h3>Feeling/Activity</h3> */}
+                       {/* </div> */}
                    </div>
 
                    

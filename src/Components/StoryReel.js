@@ -9,23 +9,39 @@ let StoryReel = ()=>{
         <Story
         image = {logo}
         profileSrc={logo}
-        title='Ashmeet Singh'
+        title='User 1'
+        
         />
         <Story
         image = {logo}
         profileSrc={logo}
-        title='Ashmeet Singh'
+        title='User 2'
         />
         <Story
         image = {logo}
         profileSrc={logo}
-        title='Ashmeet Singh'
+        title='User 3'
         />
-          <Story
+          {/* <Story
         image = {logo}
         profileSrc={logo}
-        title='Ashmeet Singh'
-        />
+        title='User 4'
+        /> */}
+         {/* <Story
+        image = {logo}
+        profileSrc={logo}
+        title='User 4'
+        /> */}
+         {/* <Story
+        image = {logo}
+        profileSrc={logo}
+        title='User 4'
+        /> */}
+         {/* <Story
+        image = {logo}
+        profileSrc={logo}
+        title='User 4'
+        /> */}
     </div>
     );
 }

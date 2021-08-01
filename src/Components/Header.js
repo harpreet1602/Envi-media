@@ -16,7 +16,7 @@ import PeopleOutlineIcon from '@material-ui/icons/PeopleOutline';
 import EventIcon from '@material-ui/icons/Event';
 import TrendingUpIcon from '@material-ui/icons/TrendingUp';
 import './Header.css';
-import logo from './logo.jpeg';
+import logo from './logo1.jpeg';
 const Header = () => {
     return (
         <div className='header'>
