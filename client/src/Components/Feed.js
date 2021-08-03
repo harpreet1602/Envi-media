@@ -1,6 +1,6 @@
 import React from 'react';
 import TopContributor from './TopContributor';
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 import logo from './logo.jpeg';
 import MessageSender from './MessageSender';
 import Post from './Post';

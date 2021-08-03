@@ -96,7 +96,8 @@ const Post = ({ profilePic, imgName, username, timestamp, message }) => {
                 </div>
             </div>
             <div className="post__bottom">
-                <p>{message}</p>
+                {/* <p>{message}</p> */}
+                <img src="https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325466/man-walking-dog.jpg"></img>
             </div>
 
             {

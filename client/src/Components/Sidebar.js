@@ -1,21 +1,21 @@
 import React from 'react';
 import './Sidebar.css';
 import SidebarRow from './SidebarRow';
-import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
-import EmojiFlagsIcon from '@material-ui/icons/EmojiFlags';
-import PeopleIcon from '@material-ui/icons/People';
+//import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
+//import EmojiFlagsIcon from '@material-ui/icons/EmojiFlags';
+//import PeopleIcon from '@material-ui/icons/People';
 import ChatIcon from '@material-ui/icons/Chat'
-import StorefrontIcon from '@material-ui/icons/Storefront';
-import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
+//import StorefrontIcon from '@material-ui/icons/Storefront';
+//import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import ExpandMoreOutlinedIcon from '@material-ui/icons/ExpandMoreOutlined';
 import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople';
-// import { useStateValue } from '../StateProvider';
-import AddLocationIcon from '@material-ui/icons/AddLocation';
+ import { useStateValue } from '../StateProvider';
+//import AddLocationIcon from '@material-ui/icons/AddLocation';
 import PersonPinIcon from '@material-ui/icons/PersonPin';
 import AssignmentIcon from '@material-ui/icons/Assignment';
 import FaceIcon from '@material-ui/icons/Face';
-import LocationCityIcon from '@material-ui/icons/LocationCity';
-import HouseIcon from '@material-ui/icons/House';
+//import LocationCityIcon from '@material-ui/icons/LocationCity';
+//import HouseIcon from '@material-ui/icons/House';
 import AddAlertIcon from '@material-ui/icons/AddAlert';
 const Sidebar = ()=>{
     const [ { user }, dispatch] = useStateValue();
@@ -29,7 +29,7 @@ const Sidebar = ()=>{
             <SidebarRow Icon={EmojiPeopleIcon} 
             title='Envi-Mates '/>
              <SidebarRow Icon={ChatIcon} 
-            title='Messenger'/>
+            title='Chit-Chat'/>
             <SidebarRow Icon={PersonPinIcon} 
             title='Common Geolocation'/>
             <SidebarRow Icon={AssignmentIcon} 
