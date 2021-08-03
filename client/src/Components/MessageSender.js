@@ -154,7 +154,7 @@ const MessageSender = () => {
             <div className="messageSender__top">
                 <Avatar src={user.photoURL} />
                 <form >
-                    <input type="text" className='messageSender__input' placeholder="What's on your mind?" value={input} onChange={(e) => setInput(e.target.value)} />
+                    <input type="text" className='messageSender__input' placeholder="Wanna share something?" value={input} onChange={(e) => setInput(e.target.value)} />
                     <Input type="file" className='messageSender__fileSelector' onChange={handleChange} />
                     <button onClick={handleSubmit} type='submit' >Hidden Submit</button>
                 </form>
