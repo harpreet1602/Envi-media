@@ -1,5 +1,5 @@
 import React from 'react';
-import StoryReel from './StoryReel';
+import Top_Contributor from './Top_Contributor';
 
 import logo from './logo.jpeg';
 import MessageSender from './MessageSender';
@@ -8,7 +8,7 @@ import Post from './Post';
 const Feed = ()=>{
     return(
         <div className = 'feed' >
-            <StoryReel />
+            <Top_Contributor />
             <MessageSender />
 
             <Post 
