@@ -17,7 +17,10 @@ import EventIcon from '@material-ui/icons/Event';
 import TrendingUpIcon from '@material-ui/icons/TrendingUp';
 import './Header.css';
 import logo from './logo1.jpeg';
+import { useStateValue } from "../StateProvider";
 const Header = () => {
+    
+    const [{user},dispatch] = useStateValue();
     return (
         <div className='header'>
         <div >

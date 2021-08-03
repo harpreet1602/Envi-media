@@ -1,8 +1,8 @@
 import React from 'react';
 import Story from './Story';
 import logo from './logo.jpeg';
-import './Top_Contributor.css';
-let Top_Contributor = ()=>{
+import './TopContributor.css';
+let TopContributor = ()=>{
     return(
     <div className='Top_Contributor'>
         {/* story >> img, profilepic, title */}
@@ -45,4 +45,4 @@ let Top_Contributor = ()=>{
     </div>
     );
 }
-export default Top_Contributor;
+export default TopContributor;

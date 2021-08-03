@@ -82,9 +82,11 @@
 // app.listen(port,()=>console.log(`listening on localhost:${port}`))
 
 
+// require('dotenv').config()
 require('dotenv').config()
-
 const express = require('express')
+// import express = require('express')
+
 const mongoose = require('mongoose')
 const cors = require('cors')
 const multer = require('multer')
@@ -104,15 +106,37 @@ Grid.mongo = mongoose.mongo
 // app config
 const app = express()
 const port = process.env.PORT || 9000
-const mongoURI = `mongodb+srv://admin:${process.env.MONGO_KEY}@cluster0.olebm.mongodb.net/fbdb?retryWrites=true&w=majority`
+// const mongoURI = `mongodb+srv://admin:${process.env.MONGO_KEY}@cluster0.olebm.mongodb.net/fbdb?retryWrites=true&w=majority`
+const mongoURI = 'mongodb+srv://admin:1234567890@cluster0.tvqyr.mongodb.net/envi-media-mern?retryWrites=true&w=majority';
+
+// const pusher = new Pusher({
+//     appId: '1090476',
+//     key: `${process.env.PUSHER_KEY}`,
+//     secret: `${process.env.PUSHER_SECRET}`,
+//     cluster: 'us3',
+//     useTLS: true
+//   });
+
+
+// const pusher = new Pusher({
+//     appId: "1244552",
+//     key: "257b0966bb93aca00a2f",
+//     secret: "f2aadfcea9c868971e80",
+//     cluster: "us3",
+//     useTLS: true
+//   });
+
 
 const pusher = new Pusher({
-    appId: '1090476',
+    appId: "1244552",
     key: `${process.env.PUSHER_KEY}`,
     secret: `${process.env.PUSHER_SECRET}`,
-    cluster: 'us3',
+    cluster: "us3",
     useTLS: true
   });
+
+
+
 
 const conn = mongoose.createConnection(mongoURI, {
     useCreateIndex: true,
